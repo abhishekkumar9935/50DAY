@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/50DAY/project-1/Piggy\ Pink.jpg);
+    color: #Fff;
+}
+
+
+.main {
+    width: 500px;
+    height: auto;
+    /* border: 2px solid black; */
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 10px #FFF;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.dob-input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #EF9FAA;
+}
+
+.calc-age {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #EF9FAA;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 1rem;
+}
